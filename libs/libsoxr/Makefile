@@ -38,7 +38,7 @@ define Package/libsoxr
   CATEGORY:=Libraries
   TITLE:=The SoX Resampler library
   URL:=http://sourceforge.net/projects/soxr/
-  DEPENDS:= +libpthread
+  DEPENDS:= +libpthread +libgomp
 endef
 
 define Package/libsoxr/description
